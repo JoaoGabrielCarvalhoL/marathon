@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44c6537-0a43-4de6-b10c-f62202ff8521" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/basic/arrays/BasicArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/basic/arrays/Matrices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/basic/primitive/types/Operators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/basic/primitive/types/PrimitiveTypes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/basic/primitive/types/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/basic/primitivetypes/Operators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/basic/primitive/types/PrimitiveTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/basic/primitivetypes/PrimitiveTypes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,29 +27,29 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2ZZiyhvi0YHXIeVOXuuUI6hEuGy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BasicArrays.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Matrices.executor": "Run",
-    "Application.Operators.executor": "Run",
-    "Application.PrimitiveTypes.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BasicArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Matrices.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Operators.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimitiveTypes.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Matrices">
     <configuration name="BasicArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.basic.arrays.BasicArrays" />
@@ -131,6 +129,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-249ae16d76d6-7c0527ad" />
         <option value="jdk-17.0.9-corretto-17.0.9-8336523bb0d9-9b5c8e75" />
       </set>
     </attachedChunks>

@@ -1,4 +1,4 @@
-package br.com.joaogabriel.basic.primitive.types;
+package br.com.joaogabriel.basic.primitivetypes;
 public class PrimitiveTypes {
     /* int, double, float, char, byte, long and boolean.*/
     /**

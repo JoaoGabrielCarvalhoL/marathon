@@ -1,4 +1,4 @@
-package br.com.joaogabriel.basic.primitive.types;
+package br.com.joaogabriel.basic.primitivetypes;
 
 public class Operators {
     public static void main(String[] args) {
