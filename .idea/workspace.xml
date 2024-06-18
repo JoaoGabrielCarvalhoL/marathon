@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44c6537-0a43-4de6-b10c-f62202ff8521" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/basic/arrays/VarArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/association/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/association/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/association/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/association/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/constructors/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/domain/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/exec/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/initialization/Init.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/initialization/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/method/ExampleMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/staticc/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/basic/primitive/types/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/basic/primitivetypes/Operators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/basic/primitive/types/PrimitiveTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/basic/primitivetypes/PrimitiveTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +38,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/corretto-17.0.9/lib/src.zip!/java.base/java/lang/System.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -36,40 +53,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BasicArrays.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Matrices.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Operators.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimitiveTypes.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BasicArrays.executor": "Debug",
+    "Application.Main.executor": "Run",
+    "Application.Matrices.executor": "Debug",
+    "Application.Operators.executor": "Run",
+    "Application.PrimitiveTypes.executor": "Run",
+    "Application.br.com.joaogabriel.poo.initialization.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/media/joao/7687187209A1FF69/Marathon/marathon",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
-  <component name="RunManager" selected="Application.Matrices">
+}]]></component>
+  <component name="RunManager" selected="Application.br.com.joaogabriel.poo.initialization.Main">
     <configuration name="BasicArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.basic.arrays.BasicArrays" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.joaogabriel.basic.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.Main" />
-      <module name="marathon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,23 +123,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="br.com.joaogabriel.poo.initialization.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.poo.initialization.Main" />
+      <module name="marathon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.joaogabriel.poo.initialization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Matrices" />
+        <item itemvalue="Application.br.com.joaogabriel.poo.initialization.Main" />
         <item itemvalue="Application.BasicArrays" />
+        <item itemvalue="Application.Matrices" />
         <item itemvalue="Application.PrimitiveTypes" />
         <item itemvalue="Application.Operators" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-249ae16d76d6-7c0527ad" />
-        <option value="jdk-17.0.9-corretto-17.0.9-8336523bb0d9-9b5c8e75" />
-      </set>
-    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
