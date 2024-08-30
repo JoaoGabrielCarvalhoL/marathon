@@ -1,6 +1,5 @@
 package br.com.joaogabriel.poo.association;
 
-import java.util.Collection;
 
 public class Player {
     private String name;

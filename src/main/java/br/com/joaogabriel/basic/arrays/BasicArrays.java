@@ -9,5 +9,11 @@ public class BasicArrays {
         for(int number : numbers) {
             System.out.println(number);
         }
+
+        numbers = new int [3];
+
+        for(int number : numbers) {
+            System.out.println(number);
+        }
     }
 }
