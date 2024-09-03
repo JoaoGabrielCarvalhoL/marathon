@@ -5,36 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44c6537-0a43-4de6-b10c-f62202ff8521" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/basic/arrays/ArrayMultidimensional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/abstractt/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/abstractt/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/abstractt/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/enumerations/Enumerations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/exception/IntroductionExceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/exception/Try.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/finall/Finall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/inheritance/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/inheritance/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/inheritance/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/inheritance/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/interfacee/ConcreteClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/interfacee/Interfacee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/interfacee/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/polymorphism/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/polymorphism/Keyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/polymorphism/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/polymorphism/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/polymorphism/Rice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/polymorphism/TaxRate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/polymorphism/TaxRateImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/scanner/Scannerr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/string/Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/string/Performance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/string/StringBuilderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/string/StringsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/wrappers/Wrappers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/basic/arrays/BasicArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/basic/arrays/BasicArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/association/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/association/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/association/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/association/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/exec/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/exec/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +49,11 @@
     "Application.BasicArrays.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Matrices.executor": "Debug",
+    "Application.Methods.executor": "Run",
     "Application.Operators.executor": "Run",
+    "Application.Performance.executor": "Run",
     "Application.PrimitiveTypes.executor": "Run",
+    "Application.Strings.executor": "Run",
     "Application.Try.executor": "Run",
     "Application.br.com.joaogabriel.poo.abstractt.Main.executor": "Run",
     "Application.br.com.joaogabriel.poo.inheritance.Main.executor": "Run",
@@ -89,16 +68,55 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.4149034",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "Console"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Try">
+  <component name="RunManager" selected="Application.Performance">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.poo.polymorphism.Main" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.joaogabriel.poo.polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.string.Methods" />
+      <module name="marathon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.joaogabriel.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Performance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.string.Performance" />
+      <module name="marathon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.joaogabriel.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringsInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.string.StringsInfo" />
+      <module name="marathon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.joaogabriel.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,52 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="br.com.joaogabriel.poo.abstractt.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.poo.abstractt.Main" />
-      <module name="marathon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.poo.abstractt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="br.com.joaogabriel.poo.inheritance.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.poo.inheritance.Main" />
-      <module name="marathon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.poo.inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="br.com.joaogabriel.poo.interfacee.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.poo.interfacee.Main" />
-      <module name="marathon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.poo.interfacee.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Performance" />
+        <item itemvalue="Application.Methods" />
+        <item itemvalue="Application.StringsInfo" />
         <item itemvalue="Application.Try" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.br.com.joaogabriel.poo.interfacee.Main" />
-        <item itemvalue="Application.br.com.joaogabriel.poo.abstractt.Main" />
-        <item itemvalue="Application.br.com.joaogabriel.poo.inheritance.Main" />
       </list>
     </recent_temporary>
   </component>
