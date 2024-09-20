@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44c6537-0a43-4de6-b10c-f62202ff8521" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/date/time/DateTimeFormatterInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/date/time/DurationInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/date/time/InstantInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/date/time/LocalDateInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/date/time/LocalDateTimeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/date/time/LocalTimeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/date/time/PeriodInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/date/time/ZonedInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/date/time/temporal/ChronoUnitInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/date/time/temporal/TemporalAdjustersInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/date/util/CalendarUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/date/util/DateFormatUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/date/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/date/util/SimpleDateFormatInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/internationalization/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/internationalization/LocaleUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/internationalization/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/regex/PatterMatcherInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/regex/PatterMatcherSecondExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/regex/PatterMatcherThirdExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/regex/PatternMatcherEmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +63,10 @@
     "Application.Methods.executor": "Run",
     "Application.Numbers.executor": "Run",
     "Application.Operators.executor": "Run",
+    "Application.PatterMatcherInfo.executor": "Run",
+    "Application.PatterMatcherSecondExample.executor": "Run",
+    "Application.PatterMatcherThirdExample.executor": "Run",
+    "Application.PatternMatcherEmail.executor": "Run",
     "Application.Performance.executor": "Run",
     "Application.PeriodInfo.executor": "Run",
     "Application.PrimitiveTypes.executor": "Run",
@@ -101,20 +92,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DateTimeFormatterInfo">
-    <configuration name="ChronoUnitInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.date.time.temporal.ChronoUnitInfo" />
-      <module name="marathon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.date.time.temporal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PatternMatcherEmail">
     <configuration name="DateTimeFormatterInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.date.time.DateTimeFormatterInfo" />
       <module name="marathon" />
@@ -128,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeriodInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.date.time.PeriodInfo" />
+    <configuration name="PatterMatcherInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.regex.PatterMatcherInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.date.time.temporal.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemporalAdjustersInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.date.time.temporal.TemporalAdjustersInfo" />
+    <configuration name="PatterMatcherSecondExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.regex.PatterMatcherSecondExample" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.date.time.temporal.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +132,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZonedInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.date.time.ZonedInfo" />
+    <configuration name="PatterMatcherThirdExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.regex.PatterMatcherThirdExample" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.date.time.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.regex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatternMatcherEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.regex.PatternMatcherEmail" />
+      <module name="marathon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.joaogabriel.regex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PatternMatcherEmail" />
+        <item itemvalue="Application.PatterMatcherThirdExample" />
+        <item itemvalue="Application.PatterMatcherSecondExample" />
+        <item itemvalue="Application.PatterMatcherInfo" />
         <item itemvalue="Application.DateTimeFormatterInfo" />
-        <item itemvalue="Application.ZonedInfo" />
-        <item itemvalue="Application.TemporalAdjustersInfo" />
-        <item itemvalue="Application.ChronoUnitInfo" />
-        <item itemvalue="Application.PeriodInfo" />
       </list>
     </recent_temporary>
   </component>
