@@ -1,1 +1,8 @@
-Hello
+'I am the one who knocks', Walter White
+'I am not in danger, Skyler. I am the danger, Walter White
+'Say my name', Walter White
+
+'I am the one who knocks.', Walter White
+'I am not in danger, Skyler. I am the danger.', Walter White
+'Say my name.', Walter White
+
