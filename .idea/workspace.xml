@@ -5,28 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44c6537-0a43-4de6-b10c-f62202ff8521" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/folder/subfolder/textone.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/folder/subfolder/texttwo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nio/nio.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/file/io/BufferedReadInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/file/io/BufferedWriterInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/file/io/FileDirectoryInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/file/io/FileInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/file/io/FileReaderInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/file/io/FileWriterInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/file/nio/BasicFileAttributesInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/file/nio/DirectoryStreamInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/file/nio/DosFileAttributesInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/file/nio/PathInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/file/nio/PathMatcherInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/file/nio/PathResolveInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/file/nio/PosixFileAttributesInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/file/nio/RelativizeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/file/nio/SimpleFileVisitorInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/file/nio/ZipOutputStreamInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/serialization/SerializableInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/serialization/SerializationInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/exec/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/file/io/FileInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/file/io/FileInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/exception/IntroductionExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/exception/IntroductionExceptions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +84,9 @@
     "Application.PosixFileAttributesInfo.executor": "Run",
     "Application.PrimitiveTypes.executor": "Run",
     "Application.RelativizeInfo.executor": "Run",
+    "Application.SerializableInfo.executor": "Run",
+    "Application.SerializationInfo (1).executor": "Run",
+    "Application.SerializationInfo.executor": "Run",
     "Application.SimpleDateFormatInfo.executor": "Run",
     "Application.SimpleFileVisitorInfo (1).executor": "Run",
     "Application.SimpleFileVisitorInfo (2).executor": "Run",
@@ -110,6 +96,7 @@
     "Application.Strings.executor": "Run",
     "Application.TemporalAdjustersInfo.executor": "Run",
     "Application.Try.executor": "Run",
+    "Application.ZipOutputStreamInfo.executor": "Run",
     "Application.ZoneInfo.executor": "Run",
     "Application.ZonedInfo.executor": "Run",
     "Application.br.com.joaogabriel.poo.abstractt.Main.executor": "Run",
@@ -121,14 +108,19 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/biel0/Downloads/quarkus/quarkus",
+    "last_opened_file_path": "D:/Estudos/Maratona/marathon/src/main/java/br/com/joaogabriel/serialization",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.4149034",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ZipOutputStreamInfo">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Estudos\Maratona\marathon\src\main\java\br\com\joaogabriel\serialization" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SerializationInfo">
     <configuration name="PathMatcherInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.file.nio.PathMatcherInfo" />
       <module name="marathon" />
@@ -142,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFileVisitorInfo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.file.nio.SimpleFileVisitorInfo" />
+    <configuration name="SerializableInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.serialization.SerializableInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.file.nio.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +147,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFileVisitorInfo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.file.nio.SimpleFileVisitorInfo" />
+    <configuration name="SerializationInfo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.serialization.SerializationInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.file.nio.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,25 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFileVisitorInfo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.file.nio.SimpleFileVisitorInfo" />
+    <configuration name="SerializationInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.serialization.SerializationInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.file.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleFileVisitorInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.file.nio.SimpleFileVisitorInfo" />
-      <module name="marathon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.file.nio.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.serialization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SerializationInfo" />
+        <item itemvalue="Application.SerializationInfo (1)" />
+        <item itemvalue="Application.SerializableInfo" />
         <item itemvalue="Application.ZipOutputStreamInfo" />
         <item itemvalue="Application.PathMatcherInfo" />
-        <item itemvalue="Application.SimpleFileVisitorInfo (4)" />
-        <item itemvalue="Application.SimpleFileVisitorInfo" />
-        <item itemvalue="Application.SimpleFileVisitorInfo (3)" />
       </list>
     </recent_temporary>
   </component>

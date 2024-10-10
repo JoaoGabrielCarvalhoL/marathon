@@ -1,5 +1,7 @@
 package br.com.joaogabriel.poo.exception;
 
+import java.io.Serializable;
+
 public class IntroductionExceptions {
     /**
      *                  Throwable

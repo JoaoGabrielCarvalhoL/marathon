@@ -10,8 +10,8 @@ import java.util.Date;
  * File: Create a file and some functionalities.
  * FileWriter: Writing
  * FileReader: Reading
- * BufferedReader: More performance to read a file with data on memory.
- * BufferedWriter: More performance to write a file with data on memory.
+ * BufferedReader: Higher performance to read a file with data on memory.
+ * BufferedWriter: Higher performance to write a file with data on memory.
  * */
 public class FileInfo {
     public static void main(String[] args) {
