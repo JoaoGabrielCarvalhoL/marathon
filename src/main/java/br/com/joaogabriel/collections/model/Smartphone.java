@@ -121,8 +121,17 @@ public class Smartphone {
      * */
     @Override
     public int hashCode() {
+        System.out.println("Hello from equals by collection");
         int result = Objects.hashCode(serial);
         result = 31 * result + Objects.hashCode(brand);
         return result;
+    }
+
+    @Override
+    public String toString() {
+        return "Smartphone{" +
+                "serial='" + serial + '\'' +
+                ", brand='" + brand + '\'' +
+                '}';
     }
 }

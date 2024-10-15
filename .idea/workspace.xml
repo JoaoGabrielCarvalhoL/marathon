@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44c6537-0a43-4de6-b10c-f62202ff8521" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/EqualsInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/model/Smartphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/IteratorInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/list/ListConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/list/ListInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/list/ListSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/list/ListSortingAnimeComparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/list/ListSortingAnimeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/model/Anime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/model/Smartphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/model/Smartphone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +68,12 @@
     "Application.FileReaderInfo.executor": "Run",
     "Application.FileWriterInfo.executor": "Run",
     "Application.InstantInfo.executor": "Run",
+    "Application.IteratorInfo.executor": "Run",
+    "Application.ListConverter.executor": "Run",
+    "Application.ListInfo.executor": "Run",
+    "Application.ListSorting.executor": "Run",
+    "Application.ListSortingAnime.executor": "Run",
+    "Application.ListSortingAnimeComparator.executor": "Run",
     "Application.LocalDateInfo.executor": "Run",
     "Application.LocalDateTimeInfo.executor": "Run",
     "Application.LocalTimeInfo.executor": "Run",
@@ -119,9 +131,9 @@
       <recent name="D:\Estudos\Maratona\marathon\src\main\java\br\com\joaogabriel\serialization" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EqualsInfo">
-    <configuration name="EqualsInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.EqualsInfo" />
+  <component name="RunManager" selected="Application.IteratorInfo">
+    <configuration name="IteratorInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.IteratorInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
@@ -133,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializableInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.serialization.SerializableInfo" />
+    <configuration name="ListConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.list.ListConverter" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.serialization.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.collections.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializationInfo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.serialization.SerializationInfo" />
+    <configuration name="ListSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.list.ListSorting" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.serialization.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.collections.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +171,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerializationInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.serialization.SerializationInfo" />
+    <configuration name="ListSortingAnimeComparable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.list.ListSortingAnimeComparable" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.serialization.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.collections.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,38 +184,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleFileVisitorInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.file.nio.SimpleFileVisitorInfo" />
+    <configuration name="ListSortingAnimeComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.list.ListSortingAnimeComparator" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.file.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleFileVisitorInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.file.nio.SimpleFileVisitorInfo" />
-      <module name="marathon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.file.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZipOutputStreamInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.file.nio.ZipOutputStreamInfo" />
-      <module name="marathon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.file.nio.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.collections.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EqualsInfo" />
-        <item itemvalue="Application.SerializationInfo" />
-        <item itemvalue="Application.SerializationInfo (1)" />
-        <item itemvalue="Application.SerializableInfo" />
-        <item itemvalue="Application.ZipOutputStreamInfo" />
+        <item itemvalue="Application.IteratorInfo" />
+        <item itemvalue="Application.ListConverter" />
+        <item itemvalue="Application.ListSortingAnimeComparator" />
+        <item itemvalue="Application.ListSortingAnimeComparable" />
+        <item itemvalue="Application.ListSorting" />
       </list>
     </recent_temporary>
   </component>
