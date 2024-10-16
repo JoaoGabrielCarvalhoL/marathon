@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44c6537-0a43-4de6-b10c-f62202ff8521" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/set/NavigableSetInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/set/SetInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/map/MapHashMapInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/map/MapInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/map/NavigableMapInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/model/Consumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,8 +75,11 @@
     "Application.LocalTimeInfo.executor": "Run",
     "Application.LocaleUtil.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MapHashMapInfo.executor": "Run",
+    "Application.MapInfo.executor": "Run",
     "Application.Matrices.executor": "Debug",
     "Application.Methods.executor": "Run",
+    "Application.NavigableMapInfo.executor": "Run",
     "Application.NavigableSetInfo.executor": "Run",
     "Application.Numbers.executor": "Run",
     "Application.Operators.executor": "Run",
@@ -127,13 +132,13 @@
       <recent name="D:\Estudos\Maratona\marathon\src\main\java\br\com\joaogabriel\serialization" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NavigableSetInfo">
-    <configuration name="IteratorInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.IteratorInfo" />
+  <component name="RunManager" selected="Application.NavigableMapInfo">
+    <configuration name="MapHashMapInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.map.MapHashMapInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.collections.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.collections.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.list.ListConverter" />
+    <configuration name="MapInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.map.MapInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.collections.list.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.collections.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +159,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListSortingAnimeComparator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.list.ListSortingAnimeComparator" />
+    <configuration name="NavigableMapInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.map.NavigableMapInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.collections.list.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.collections.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NavigableMapInfo" />
+        <item itemvalue="Application.MapHashMapInfo" />
+        <item itemvalue="Application.MapInfo" />
         <item itemvalue="Application.NavigableSetInfo" />
         <item itemvalue="Application.SetInfo" />
-        <item itemvalue="Application.IteratorInfo" />
-        <item itemvalue="Application.ListConverter" />
-        <item itemvalue="Application.ListSortingAnimeComparator" />
       </list>
     </recent_temporary>
   </component>
