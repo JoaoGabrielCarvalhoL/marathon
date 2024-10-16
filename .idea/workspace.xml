@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44c6537-0a43-4de6-b10c-f62202ff8521" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/map/MapHashMapInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/map/MapInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/map/NavigableMapInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/model/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/queue/QueueInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,6 +91,7 @@
     "Application.PeriodInfo.executor": "Run",
     "Application.PosixFileAttributesInfo.executor": "Run",
     "Application.PrimitiveTypes.executor": "Run",
+    "Application.QueueInfo.executor": "Run",
     "Application.RelativizeInfo.executor": "Run",
     "Application.SerializableInfo.executor": "Run",
     "Application.SerializationInfo (1).executor": "Run",
@@ -132,7 +130,7 @@
       <recent name="D:\Estudos\Maratona\marathon\src\main\java\br\com\joaogabriel\serialization" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NavigableMapInfo">
+  <component name="RunManager" selected="Application.QueueInfo">
     <configuration name="MapHashMapInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.map.MapHashMapInfo" />
       <module name="marathon" />
@@ -185,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.set.SetInfo" />
+    <configuration name="QueueInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.queue.QueueInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.collections.set.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.collections.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QueueInfo" />
         <item itemvalue="Application.NavigableMapInfo" />
         <item itemvalue="Application.MapHashMapInfo" />
         <item itemvalue="Application.MapInfo" />
         <item itemvalue="Application.NavigableSetInfo" />
-        <item itemvalue="Application.SetInfo" />
       </list>
     </recent_temporary>
   </component>
