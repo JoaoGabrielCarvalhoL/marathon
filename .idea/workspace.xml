@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44c6537-0a43-4de6-b10c-f62202ff8521" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/collections/queue/QueueInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/generics/GenericClassInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/generics/GenericInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/generics/GenericMethodsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/generics/WildcardInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/generics/model/Boat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/generics/model/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/generics/service/ProfitableBoatService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/generics/service/ProfitableCarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/generics/service/ProfitableGenericService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,103 +48,109 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayMultidimensional.executor": "Run",
-    "Application.BasicArrays.executor": "Run",
-    "Application.BasicFileAttributesInfo.executor": "Run",
-    "Application.BufferedReadInfo.executor": "Run",
-    "Application.CalendarUtil.executor": "Run",
-    "Application.ChronoUnitInfo.executor": "Run",
-    "Application.Coin.executor": "Run",
-    "Application.DateFormatUtil.executor": "Run",
-    "Application.DateTimeFormatterInfo.executor": "Run",
-    "Application.DateUtil.executor": "Run",
-    "Application.DirectoryStreamInfo.executor": "Run",
-    "Application.DosFileAttributesInfo.executor": "Run",
-    "Application.DurationInfo.executor": "Run",
-    "Application.EqualsInfo.executor": "Run",
-    "Application.FileDirectoryInfo.executor": "Run",
-    "Application.FileInfo.executor": "Run",
-    "Application.FileReaderInfo.executor": "Run",
-    "Application.FileWriterInfo.executor": "Run",
-    "Application.InstantInfo.executor": "Run",
-    "Application.IteratorInfo.executor": "Run",
-    "Application.ListConverter.executor": "Run",
-    "Application.ListInfo.executor": "Run",
-    "Application.ListSorting.executor": "Run",
-    "Application.ListSortingAnime.executor": "Run",
-    "Application.ListSortingAnimeComparator.executor": "Run",
-    "Application.LocalDateInfo.executor": "Run",
-    "Application.LocalDateTimeInfo.executor": "Run",
-    "Application.LocalTimeInfo.executor": "Run",
-    "Application.LocaleUtil.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MapHashMapInfo.executor": "Run",
-    "Application.MapInfo.executor": "Run",
-    "Application.Matrices.executor": "Debug",
-    "Application.Methods.executor": "Run",
-    "Application.NavigableMapInfo.executor": "Run",
-    "Application.NavigableSetInfo.executor": "Run",
-    "Application.Numbers.executor": "Run",
-    "Application.Operators.executor": "Run",
-    "Application.PathInfo.executor": "Run",
-    "Application.PathMatcherInfo.executor": "Run",
-    "Application.PathResolveInfo.executor": "Run",
-    "Application.PatterMatcherInfo.executor": "Run",
-    "Application.PatterMatcherSecondExample.executor": "Run",
-    "Application.PatterMatcherThirdExample.executor": "Run",
-    "Application.PatternMatcherEmail.executor": "Run",
-    "Application.Performance.executor": "Run",
-    "Application.PeriodInfo.executor": "Run",
-    "Application.PosixFileAttributesInfo.executor": "Run",
-    "Application.PrimitiveTypes.executor": "Run",
-    "Application.QueueInfo.executor": "Run",
-    "Application.RelativizeInfo.executor": "Run",
-    "Application.SerializableInfo.executor": "Run",
-    "Application.SerializationInfo (1).executor": "Run",
-    "Application.SerializationInfo.executor": "Run",
-    "Application.SetInfo.executor": "Run",
-    "Application.SimpleDateFormatInfo.executor": "Run",
-    "Application.SimpleFileVisitorInfo (1).executor": "Run",
-    "Application.SimpleFileVisitorInfo (2).executor": "Run",
-    "Application.SimpleFileVisitorInfo (3).executor": "Run",
-    "Application.SimpleFileVisitorInfo (4).executor": "Run",
-    "Application.SimpleFileVisitorInfo.executor": "Run",
-    "Application.Strings.executor": "Run",
-    "Application.TemporalAdjustersInfo.executor": "Run",
-    "Application.Try.executor": "Run",
-    "Application.ZipOutputStreamInfo.executor": "Run",
-    "Application.ZoneInfo.executor": "Run",
-    "Application.ZonedInfo.executor": "Run",
-    "Application.br.com.joaogabriel.poo.abstractt.Main.executor": "Run",
-    "Application.br.com.joaogabriel.poo.inheritance.Main.executor": "Run",
-    "Application.br.com.joaogabriel.poo.initialization.Main.executor": "Run",
-    "Application.br.com.joaogabriel.poo.interfacee.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Estudos/Maratona/marathon/src/main/java/br/com/joaogabriel/serialization",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.4149034",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayMultidimensional.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BasicArrays.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BasicFileAttributesInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BufferedReadInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CalendarUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChronoUnitInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Coin.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DateFormatUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DateTimeFormatterInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DateUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DirectoryStreamInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DosFileAttributesInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DurationInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualsInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileDirectoryInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileReaderInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileWriterInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericClassInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InstantInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IteratorInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListConverter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListSorting.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListSortingAnime.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListSortingAnimeComparator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalDateInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalDateTimeInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalTimeInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocaleUtil.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapHashMapInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MapInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Matrices.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Methods.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NavigableMapInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NavigableSetInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Operators.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PathInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PathMatcherInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PathResolveInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatterMatcherInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatterMatcherSecondExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatterMatcherThirdExample.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PatternMatcherEmail.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Performance.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PeriodInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PosixFileAttributesInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrimitiveTypes.executor&quot;: &quot;Run&quot;,
+    &quot;Application.QueueInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RelativizeInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SerializableInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SerializationInfo (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SerializationInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SetInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleDateFormatInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleFileVisitorInfo (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleFileVisitorInfo (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleFileVisitorInfo (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleFileVisitorInfo (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleFileVisitorInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Strings.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TemporalAdjustersInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Try.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WildcardInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZipOutputStreamInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZoneInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZonedInfo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.br.com.joaogabriel.poo.abstractt.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.br.com.joaogabriel.poo.inheritance.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.br.com.joaogabriel.poo.initialization.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.br.com.joaogabriel.poo.interfacee.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Estudos/Maratona/marathon/src/main/java/br/com/joaogabriel/serialization&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.4149034&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Estudos\Maratona\marathon\src\main\java\br\com\joaogabriel\serialization" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.joaogabriel.generics.service" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.QueueInfo">
-    <configuration name="MapHashMapInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.map.MapHashMapInfo" />
+  <component name="RunManager" selected="Application.GenericClassInfo">
+    <configuration name="GenericClassInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.generics.GenericClassInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.collections.map.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.map.MapInfo" />
+    <configuration name="GenericInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.generics.GenericInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.collections.map.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,19 +184,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NavigableSetInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.set.NavigableSetInfo" />
-      <module name="marathon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.collections.set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="QueueInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.collections.queue.QueueInfo" />
       <module name="marathon" />
@@ -196,13 +197,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WildcardInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.generics.WildcardInfo" />
+      <module name="marathon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.joaogabriel.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericClassInfo" />
+        <item itemvalue="Application.WildcardInfo" />
+        <item itemvalue="Application.GenericInfo" />
         <item itemvalue="Application.QueueInfo" />
         <item itemvalue="Application.NavigableMapInfo" />
-        <item itemvalue="Application.MapHashMapInfo" />
-        <item itemvalue="Application.MapInfo" />
-        <item itemvalue="Application.NavigableSetInfo" />
       </list>
     </recent_temporary>
   </component>
