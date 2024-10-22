@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44c6537-0a43-4de6-b10c-f62202ff8521" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/parameterizing/behaviors/ParameterizingBehaviorsInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/parameterizing/behaviors/ParameterizingBehaviorsWithPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/parameterizing/behaviors/model/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/parameterizing/behaviors/predicate/PredicateFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/consumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/consumer/ConsumerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/function/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/function/FunctionInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/predicate/Predicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/predicate/PredicateInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -147,7 +149,7 @@
       <recent name="br.com.joaogabriel.generics.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParameterizingBehaviorsWithPredicate">
+  <component name="RunManager" selected="Application.FunctionInfo">
     <configuration name="AnonymousClassInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.inner.AnonymousClassInfo" />
       <module name="marathon" />
@@ -161,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalClassInfo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.inner.LocalClassInfo" />
+    <configuration name="FunctionInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.lambda.function.FunctionInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.inner.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.lambda.function.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FunctionInfo" />
         <item itemvalue="Application.ParameterizingBehaviorsWithPredicate" />
         <item itemvalue="Application.ParameterizingBehaviorsInfo" />
         <item itemvalue="Application.AnonymousClassInfo" />
         <item itemvalue="Application.LocalClassInfo (2)" />
-        <item itemvalue="Application.LocalClassInfo (1)" />
       </list>
     </recent_temporary>
   </component>
