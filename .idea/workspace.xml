@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44c6537-0a43-4de6-b10c-f62202ff8521" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/consumer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/consumer/ConsumerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/function/Function.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/function/FunctionInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/predicate/Predicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/predicate/PredicateInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/method/reference/MethodReferenceInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/method/reference/model/Anime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/method/reference/service/AnimeComparators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +63,7 @@
     "Application.FileInfo.executor": "Run",
     "Application.FileReaderInfo.executor": "Run",
     "Application.FileWriterInfo.executor": "Run",
+    "Application.FunctionInfo.executor": "Run",
     "Application.GenericClassInfo.executor": "Run",
     "Application.GenericInfo.executor": "Run",
     "Application.InnerClassInfo.executor": "Run",
@@ -87,6 +85,7 @@
     "Application.MapHashMapInfo.executor": "Run",
     "Application.MapInfo.executor": "Run",
     "Application.Matrices.executor": "Debug",
+    "Application.MethodReferenceInfo.executor": "Run",
     "Application.Methods.executor": "Run",
     "Application.NavigableMapInfo.executor": "Run",
     "Application.NavigableSetInfo.executor": "Run",
@@ -149,7 +148,7 @@
       <recent name="br.com.joaogabriel.generics.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FunctionInfo">
+  <component name="RunManager" selected="Application.MethodReferenceInfo">
     <configuration name="AnonymousClassInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.inner.AnonymousClassInfo" />
       <module name="marathon" />
@@ -176,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalClassInfo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.inner.LocalClassInfo" />
+    <configuration name="MethodReferenceInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.lambda.method.reference.MethodReferenceInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.inner.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.lambda.method.reference.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodReferenceInfo" />
         <item itemvalue="Application.FunctionInfo" />
         <item itemvalue="Application.ParameterizingBehaviorsWithPredicate" />
         <item itemvalue="Application.ParameterizingBehaviorsInfo" />
         <item itemvalue="Application.AnonymousClassInfo" />
-        <item itemvalue="Application.LocalClassInfo (2)" />
       </list>
     </recent_temporary>
   </component>
