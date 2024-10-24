@@ -1,8 +1,6 @@
 package br.com.joaogabriel.lambda.predicate;
 
 import br.com.joaogabriel.parameterizing.behaviors.model.Car;
-import br.com.joaogabriel.parameterizing.behaviors.predicate.PredicateFilter;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,7 +13,7 @@ public class PredicateInfo {
         filtered.forEach(System.out::println);
     }
 
-    public static <T extends Car> List<T> filter(List<T> data, PredicateFilter<T> predicate) {
-        return data.stream().filter(predicate::filter).toList();
+    public static <T extends Car> List<T> filter(List<T> data, Predicate<T> predicate) {
+        return data.stream().filter(predicate::test).toList();
     }
 }

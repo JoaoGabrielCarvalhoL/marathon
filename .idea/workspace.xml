@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44c6537-0a43-4de6-b10c-f62202ff8521" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/method/reference/MethodReferenceInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/method/reference/model/Anime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/method/reference/service/AnimeComparators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/optional/OptionalInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/predicate/PredicateInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/predicate/PredicateInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +90,7 @@
     "Application.NavigableSetInfo.executor": "Run",
     "Application.Numbers.executor": "Run",
     "Application.Operators.executor": "Run",
+    "Application.OptionalInfo.executor": "Run",
     "Application.ParameterizingBehaviorsInfo.executor": "Run",
     "Application.ParameterizingBehaviorsWithPredicate.executor": "Run",
     "Application.PathInfo.executor": "Run",
@@ -103,6 +103,7 @@
     "Application.Performance.executor": "Run",
     "Application.PeriodInfo.executor": "Run",
     "Application.PosixFileAttributesInfo.executor": "Run",
+    "Application.PredicateInfo.executor": "Run",
     "Application.PrimitiveTypes.executor": "Run",
     "Application.QueueInfo.executor": "Run",
     "Application.RelativizeInfo.executor": "Run",
@@ -148,20 +149,7 @@
       <recent name="br.com.joaogabriel.generics.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MethodReferenceInfo">
-    <configuration name="AnonymousClassInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.inner.AnonymousClassInfo" />
-      <module name="marathon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.inner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PredicateInfo">
     <configuration name="FunctionInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.lambda.function.FunctionInfo" />
       <module name="marathon" />
@@ -188,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParameterizingBehaviorsInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.parameterizing.behaviors.ParameterizingBehaviorsInfo" />
+    <configuration name="OptionalInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.optional.OptionalInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.parameterizing.behaviors.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.optional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,13 +202,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PredicateInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.lambda.predicate.PredicateInfo" />
+      <module name="marathon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.joaogabriel.lambda.predicate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PredicateInfo" />
+        <item itemvalue="Application.OptionalInfo" />
         <item itemvalue="Application.MethodReferenceInfo" />
         <item itemvalue="Application.FunctionInfo" />
         <item itemvalue="Application.ParameterizingBehaviorsWithPredicate" />
-        <item itemvalue="Application.ParameterizingBehaviorsInfo" />
-        <item itemvalue="Application.AnonymousClassInfo" />
       </list>
     </recent_temporary>
   </component>
