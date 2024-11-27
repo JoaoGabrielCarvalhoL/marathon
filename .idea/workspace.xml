@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44c6537-0a43-4de6-b10c-f62202ff8521" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/optional/OptionalInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/StreamsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/StreamsInfoImperative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/collectors/CollectorsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/finding/matching/FindingMatchingInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/flatmap/FlatMapInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/generating/stream/GeneratingStreamInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/model/LightNovel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/model/Promotion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/parallel/ParallelStreamInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/reduce/ReduceInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/predicate/PredicateInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/lambda/predicate/PredicateInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -51,6 +61,7 @@
     "Application.CalendarUtil.executor": "Run",
     "Application.ChronoUnitInfo.executor": "Run",
     "Application.Coin.executor": "Run",
+    "Application.CollectorsInfo.executor": "Run",
     "Application.DateFormatUtil.executor": "Run",
     "Application.DateTimeFormatterInfo.executor": "Run",
     "Application.DateUtil.executor": "Run",
@@ -62,7 +73,10 @@
     "Application.FileInfo.executor": "Run",
     "Application.FileReaderInfo.executor": "Run",
     "Application.FileWriterInfo.executor": "Run",
+    "Application.FindingMatchingInfo.executor": "Run",
+    "Application.FlatMapInfo.executor": "Run",
     "Application.FunctionInfo.executor": "Run",
+    "Application.GeneratingStreamInfo.executor": "Run",
     "Application.GenericClassInfo.executor": "Run",
     "Application.GenericInfo.executor": "Run",
     "Application.InnerClassInfo.executor": "Run",
@@ -91,6 +105,7 @@
     "Application.Numbers.executor": "Run",
     "Application.Operators.executor": "Run",
     "Application.OptionalInfo.executor": "Run",
+    "Application.ParallelStreamInfo.executor": "Run",
     "Application.ParameterizingBehaviorsInfo.executor": "Run",
     "Application.ParameterizingBehaviorsWithPredicate.executor": "Run",
     "Application.PathInfo.executor": "Run",
@@ -106,6 +121,7 @@
     "Application.PredicateInfo.executor": "Run",
     "Application.PrimitiveTypes.executor": "Run",
     "Application.QueueInfo.executor": "Run",
+    "Application.ReduceInfo.executor": "Run",
     "Application.RelativizeInfo.executor": "Run",
     "Application.SerializableInfo.executor": "Run",
     "Application.SerializationInfo (1).executor": "Run",
@@ -117,6 +133,8 @@
     "Application.SimpleFileVisitorInfo (3).executor": "Run",
     "Application.SimpleFileVisitorInfo (4).executor": "Run",
     "Application.SimpleFileVisitorInfo.executor": "Run",
+    "Application.StreamsInfo.executor": "Run",
+    "Application.StreamsInfoImperative.executor": "Run",
     "Application.Strings.executor": "Run",
     "Application.TemporalAdjustersInfo.executor": "Run",
     "Application.Try.executor": "Run",
@@ -130,6 +148,7 @@
     "Application.br.com.joaogabriel.poo.interfacee.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -145,17 +164,18 @@
       <recent name="D:\Estudos\Maratona\marathon\src\main\java\br\com\joaogabriel\serialization" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.joaogabriel.streams" />
       <recent name="br.com.joaogabriel.parameterizing.behaviors" />
       <recent name="br.com.joaogabriel.generics.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PredicateInfo">
-    <configuration name="FunctionInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.lambda.function.FunctionInfo" />
+  <component name="RunManager" selected="Application.ParallelStreamInfo">
+    <configuration name="CollectorsInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.streams.collectors.CollectorsInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.lambda.function.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.streams.collectors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodReferenceInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.lambda.method.reference.MethodReferenceInfo" />
+    <configuration name="FindingMatchingInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.streams.finding.matching.FindingMatchingInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.lambda.method.reference.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.streams.finding.matching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +196,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OptionalInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.optional.OptionalInfo" />
+    <configuration name="GeneratingStreamInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.streams.generating.stream.GeneratingStreamInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.optional.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.streams.generating.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,12 +209,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParameterizingBehaviorsWithPredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.parameterizing.behaviors.ParameterizingBehaviorsWithPredicate" />
+    <configuration name="ParallelStreamInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.streams.parallel.ParallelStreamInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.parameterizing.behaviors.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.streams.parallel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,12 +222,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredicateInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.lambda.predicate.PredicateInfo" />
+    <configuration name="ReduceInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.streams.reduce.ReduceInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.lambda.predicate.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.streams.reduce.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PredicateInfo" />
-        <item itemvalue="Application.OptionalInfo" />
-        <item itemvalue="Application.MethodReferenceInfo" />
-        <item itemvalue="Application.FunctionInfo" />
-        <item itemvalue="Application.ParameterizingBehaviorsWithPredicate" />
+        <item itemvalue="Application.ParallelStreamInfo" />
+        <item itemvalue="Application.CollectorsInfo" />
+        <item itemvalue="Application.GeneratingStreamInfo" />
+        <item itemvalue="Application.ReduceInfo" />
+        <item itemvalue="Application.FindingMatchingInfo" />
       </list>
     </recent_temporary>
   </component>
