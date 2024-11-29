@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44c6537-0a43-4de6-b10c-f62202ff8521" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/StreamsInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/StreamsInfoImperative.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/collectors/CollectorsInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/finding/matching/FindingMatchingInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/flatmap/FlatMapInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/generating/stream/GeneratingStreamInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/model/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/model/LightNovel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/model/Promotion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/parallel/ParallelStreamInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/streams/reduce/ReduceInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/ThreadsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/ThreadsYieldJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/deadlock/DeadLockInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/model/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/model/service/EmailDeliveryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/object/ObjectMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/safe/ThreadSafeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/synchronizedd/ThreadAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +63,7 @@
     "Application.DateFormatUtil.executor": "Run",
     "Application.DateTimeFormatterInfo.executor": "Run",
     "Application.DateUtil.executor": "Run",
+    "Application.DeadLockInfo.executor": "Run",
     "Application.DirectoryStreamInfo.executor": "Run",
     "Application.DosFileAttributesInfo.executor": "Run",
     "Application.DurationInfo.executor": "Run",
@@ -103,6 +102,7 @@
     "Application.NavigableMapInfo.executor": "Run",
     "Application.NavigableSetInfo.executor": "Run",
     "Application.Numbers.executor": "Run",
+    "Application.ObjectMethods.executor": "Run",
     "Application.Operators.executor": "Run",
     "Application.OptionalInfo.executor": "Run",
     "Application.ParallelStreamInfo.executor": "Run",
@@ -137,6 +137,10 @@
     "Application.StreamsInfoImperative.executor": "Run",
     "Application.Strings.executor": "Run",
     "Application.TemporalAdjustersInfo.executor": "Run",
+    "Application.ThreadAccount.executor": "Run",
+    "Application.ThreadSafeInfo.executor": "Run",
+    "Application.ThreadsInfo.executor": "Run",
+    "Application.ThreadsYieldJoin.executor": "Run",
     "Application.Try.executor": "Run",
     "Application.WildcardInfo.executor": "Run",
     "Application.ZipOutputStreamInfo.executor": "Run",
@@ -156,7 +160,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.4149034",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -169,13 +173,13 @@
       <recent name="br.com.joaogabriel.generics.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParallelStreamInfo">
-    <configuration name="CollectorsInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.streams.collectors.CollectorsInfo" />
+  <component name="RunManager" selected="Application.ObjectMethods">
+    <configuration name="DeadLockInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.threads.deadlock.DeadLockInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.streams.collectors.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.threads.deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +187,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindingMatchingInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.streams.finding.matching.FindingMatchingInfo" />
+    <configuration name="ObjectMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.threads.object.ObjectMethods" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.streams.finding.matching.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.threads.object.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,12 +200,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeneratingStreamInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.streams.generating.stream.GeneratingStreamInfo" />
+    <configuration name="ThreadAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.threads.synchronizedd.ThreadAccount" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.streams.generating.stream.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.threads.synchronizedd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,12 +213,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelStreamInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.streams.parallel.ParallelStreamInfo" />
+    <configuration name="ThreadSafeInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.threads.safe.ThreadSafeInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.streams.parallel.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.threads.safe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -222,12 +226,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReduceInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.streams.reduce.ReduceInfo" />
+    <configuration name="ThreadsYieldJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.threads.ThreadsYieldJoin" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.streams.reduce.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.threads.synchronizedd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParallelStreamInfo" />
-        <item itemvalue="Application.CollectorsInfo" />
-        <item itemvalue="Application.GeneratingStreamInfo" />
-        <item itemvalue="Application.ReduceInfo" />
-        <item itemvalue="Application.FindingMatchingInfo" />
+        <item itemvalue="Application.ObjectMethods" />
+        <item itemvalue="Application.DeadLockInfo" />
+        <item itemvalue="Application.ThreadSafeInfo" />
+        <item itemvalue="Application.ThreadAccount" />
+        <item itemvalue="Application.ThreadsYieldJoin" />
       </list>
     </recent_temporary>
   </component>
