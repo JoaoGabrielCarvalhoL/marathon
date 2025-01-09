@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * A class denominated ThreadSafe is a class whose the methods are a synchronized
+ * A class denominated ThreadSafe is a class who's the methods are a synchronized
  * */
 public class ThreadSafeInfo {
     public static void main(String[] args) {

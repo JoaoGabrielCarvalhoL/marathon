@@ -22,7 +22,7 @@ public class Car {
 
     static {
         /**
-         * 0 When class is be loaded by JVM
+         * 0 When class is loaded by JVM
          */
     }
 

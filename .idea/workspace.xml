@@ -5,16 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44c6537-0a43-4de6-b10c-f62202ff8521" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/ThreadsInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/ThreadsYieldJoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/deadlock/DeadLockInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/model/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/model/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/model/service/EmailDeliveryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/object/ObjectMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/safe/ThreadSafeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/synchronizedd/ThreadAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/AtomicIntegerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/BlockingQueueInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/CopyOnWriteArrayListInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/LinkedTransferQueueInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/LockInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/ReentrantReadWriteLockInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/callable/CallableInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/executors/ExecutorsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/executors/ScheduledThreadPoolInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/future/CompletableFutureInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/future/CompletableFutureStreamsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/future/CompletableFutureWithDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/future/FutureInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/future/model/Discount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/future/model/Quote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/future/service/StoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/future/service/StoreServiceDeprecated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/future/service/StoreServiceWithDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/concurrency/future/service/test/CompletableFutureDeprecated.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/staticc/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/poo/staticc/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/safe/ThreadSafeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/joaogabriel/threads/safe/ThreadSafeInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +65,22 @@
   "keyToString": {
     "Application.AnonymousClassInfo.executor": "Run",
     "Application.ArrayMultidimensional.executor": "Run",
+    "Application.AtomicIntegerInfo.executor": "Run",
     "Application.BasicArrays.executor": "Run",
     "Application.BasicFileAttributesInfo.executor": "Run",
+    "Application.BlockingQueueInfo.executor": "Run",
     "Application.BufferedReadInfo.executor": "Run",
     "Application.CalendarUtil.executor": "Run",
+    "Application.CallableInfo (1).executor": "Run",
+    "Application.CallableInfo.executor": "Run",
     "Application.ChronoUnitInfo.executor": "Run",
     "Application.Coin.executor": "Run",
     "Application.CollectorsInfo.executor": "Run",
+    "Application.CompletableFutureDeprecated.executor": "Run",
+    "Application.CompletableFutureInfo.executor": "Run",
+    "Application.CompletableFutureStreamsInfo.executor": "Run",
+    "Application.CompletableFutureWithDiscount.executor": "Run",
+    "Application.CopyOnWriteArrayListInfo.executor": "Run",
     "Application.DateFormatUtil.executor": "Run",
     "Application.DateTimeFormatterInfo.executor": "Run",
     "Application.DateUtil.executor": "Run",
@@ -68,6 +89,9 @@
     "Application.DosFileAttributesInfo.executor": "Run",
     "Application.DurationInfo.executor": "Run",
     "Application.EqualsInfo.executor": "Run",
+    "Application.ExecutorsInfo (1).executor": "Run",
+    "Application.ExecutorsInfo (2).executor": "Run",
+    "Application.ExecutorsInfo.executor": "Run",
     "Application.FileDirectoryInfo.executor": "Run",
     "Application.FileInfo.executor": "Run",
     "Application.FileReaderInfo.executor": "Run",
@@ -75,12 +99,14 @@
     "Application.FindingMatchingInfo.executor": "Run",
     "Application.FlatMapInfo.executor": "Run",
     "Application.FunctionInfo.executor": "Run",
+    "Application.FutureInfo.executor": "Run",
     "Application.GeneratingStreamInfo.executor": "Run",
     "Application.GenericClassInfo.executor": "Run",
     "Application.GenericInfo.executor": "Run",
     "Application.InnerClassInfo.executor": "Run",
     "Application.InstantInfo.executor": "Run",
     "Application.IteratorInfo.executor": "Run",
+    "Application.LinkedTransferQueueInfo.executor": "Run",
     "Application.ListConverter.executor": "Run",
     "Application.ListInfo.executor": "Run",
     "Application.ListSorting.executor": "Run",
@@ -93,6 +119,7 @@
     "Application.LocalDateTimeInfo.executor": "Run",
     "Application.LocalTimeInfo.executor": "Run",
     "Application.LocaleUtil.executor": "Run",
+    "Application.LockInfo.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MapHashMapInfo.executor": "Run",
     "Application.MapInfo.executor": "Run",
@@ -122,7 +149,9 @@
     "Application.PrimitiveTypes.executor": "Run",
     "Application.QueueInfo.executor": "Run",
     "Application.ReduceInfo.executor": "Run",
+    "Application.ReentrantReadWriteLockInfo.executor": "Run",
     "Application.RelativizeInfo.executor": "Run",
+    "Application.ScheduledThreadPoolInfo.executor": "Run",
     "Application.SerializableInfo.executor": "Run",
     "Application.SerializationInfo (1).executor": "Run",
     "Application.SerializationInfo.executor": "Run",
@@ -160,7 +189,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.4149034",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -168,18 +197,20 @@
       <recent name="D:\Estudos\Maratona\marathon\src\main\java\br\com\joaogabriel\serialization" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.joaogabriel.concurrency.future.service" />
+      <recent name="br.com.joaogabriel.concurrency.future.service.test" />
       <recent name="br.com.joaogabriel.streams" />
       <recent name="br.com.joaogabriel.parameterizing.behaviors" />
       <recent name="br.com.joaogabriel.generics.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObjectMethods">
-    <configuration name="DeadLockInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.threads.deadlock.DeadLockInfo" />
+  <component name="RunManager" selected="Application.CompletableFutureWithDiscount">
+    <configuration name="CallableInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.concurrency.callable.CallableInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.threads.deadlock.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.concurrency.future.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.threads.object.ObjectMethods" />
+    <configuration name="CompletableFutureDeprecated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.concurrency.future.service.test.CompletableFutureDeprecated" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.threads.object.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.concurrency.future.service.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,12 +231,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.threads.synchronizedd.ThreadAccount" />
+    <configuration name="CompletableFutureInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.concurrency.future.CompletableFutureInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.threads.synchronizedd.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.concurrency.future.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,12 +244,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadSafeInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.threads.safe.ThreadSafeInfo" />
+    <configuration name="CompletableFutureStreamsInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.concurrency.future.CompletableFutureStreamsInfo" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.threads.safe.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.concurrency.future.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,12 +257,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadsYieldJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.threads.ThreadsYieldJoin" />
+    <configuration name="CompletableFutureWithDiscount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.concurrency.future.CompletableFutureWithDiscount" />
       <module name="marathon" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.joaogabriel.threads.synchronizedd.*" />
+          <option name="PATTERN" value="br.com.joaogabriel.concurrency.future.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FutureInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.joaogabriel.concurrency.future.FutureInfo" />
+      <module name="marathon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.joaogabriel.concurrency.future.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -241,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ObjectMethods" />
-        <item itemvalue="Application.DeadLockInfo" />
-        <item itemvalue="Application.ThreadSafeInfo" />
-        <item itemvalue="Application.ThreadAccount" />
-        <item itemvalue="Application.ThreadsYieldJoin" />
+        <item itemvalue="Application.CompletableFutureWithDiscount" />
+        <item itemvalue="Application.CompletableFutureDeprecated" />
+        <item itemvalue="Application.CompletableFutureStreamsInfo" />
+        <item itemvalue="Application.CompletableFutureInfo" />
+        <item itemvalue="Application.FutureInfo" />
       </list>
     </recent_temporary>
   </component>
